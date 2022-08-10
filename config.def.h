@@ -3,9 +3,9 @@ static const char *user  = "yaesol";
 static const char *group = "yaesol";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "black",     /* after initialization */
-	[INPUT] =  "#005577",   /* during input */
-	[FAILED] = "#CC3333",   /* wrong password */
+	[INIT] =   "#002b36",     /* after initialization */
+	[INPUT] =  "#073642",   /* during input */
+	[FAILED] = "#cb4b16",   /* wrong password */
 };
 
 /* treat a cleared input like a wrong password (color) */
