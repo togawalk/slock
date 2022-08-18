@@ -5,7 +5,7 @@ static const char *group = "yaesol";
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#002b36",     /* after initialization */
 	[INPUT] =  "#073642",   /* during input */
-	[FAILED] = "#cb4b16",   /* wrong password */
+	[FAILED] = "#dc322f",   /* wrong password */
 };
 
 /* treat a cleared input like a wrong password (color) */
